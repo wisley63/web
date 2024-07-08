@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('images/Emu.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin: 20px;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 20px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.grid-item {
+    background-color: rgba(192, 192, 192, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.grid-item h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: black;
+    /* Changed the title color to black */
+}
+
+.grid-item ul {
+    list-style: none;
+    padding: 0;
+    color: black;
+    /* Changed the links color to green */
+}
+
+.grid-item ul li {
+    margin: 10px 0;
+}
+
+.calendar-thumbnail {
+    margin-top: 20px;
+    /* Added margin-top to move the image down */
+    width: 150px;
+    height: auto;
+}
+
+#back-to-home {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#back-to-home:hover {
+    background-color: #0056b3;
+}
+
+#calendar {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 10px;
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+}
+
+#bitcoin-price {
+    font-size: 18px;
+    color: black;
+}
+
+#upcoming-event {
+    font-size: 18px;
+    color: black;
+}
+
+#today-events,
+#tomorrow-events {
+    text-align: center;
+    font-size: 18px;
+}
