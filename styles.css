@@ -49,14 +49,12 @@ h1 {
     font-size: 1.5em;
     margin-bottom: 10px;
     color: black;
-    /* Changed the title color to black */
 }
 
 .grid-item ul {
     list-style: none;
     padding: 0;
     color: black;
-    /* Changed the links color to green */
 }
 
 .grid-item ul li {
@@ -65,7 +63,6 @@ h1 {
 
 .calendar-thumbnail {
     margin-top: 20px;
-    /* Added margin-top to move the image down */
     width: 150px;
     height: auto;
 }
@@ -84,6 +81,56 @@ h1 {
 
 #back-to-home:hover {
     background-color: #0056b3;
+}
+
+#tool-container {
+    position: absolute;
+    top: 70px;
+    left: 20px;
+}
+
+#tool {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#tool:hover {
+    background-color: #0056b3;
+}
+
+.tool-options {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    flex-direction: column;
+    background-color: #007bff;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.tool-options button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    cursor: pointer;
+    width: 150px;
+    text-align: center;
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+.tool-options button:hover {
+    background-color: #0056b3;
+}
+
+#tool-container:hover .tool-options {
+    display: flex;
 }
 
 #calendar {
@@ -110,3 +157,4 @@ h1 {
     text-align: center;
     font-size: 18px;
 }
+
