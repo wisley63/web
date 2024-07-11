@@ -61,8 +61,13 @@ h1 {
     margin: 10px 0;
 }
 
+<<<<<<< HEAD
 .calendar-img {
     margin-top: 20px;
+=======
+.img_calendar {
+   margin-top: 20px;
+>>>>>>> 5e1a487b97439ce0c7e1a9f20e009aa71e506c8f
     width: 200px; 
     height: auto; 
 }
@@ -161,4 +166,8 @@ h1 {
 .fc-event-title {
     white-space: normal !important;
     word-wrap: break-word !important;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 5e1a487b97439ce0c7e1a9f20e009aa71e506c8f
