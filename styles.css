@@ -61,10 +61,10 @@ h1 {
     margin: 10px 0;
 }
 
-.calendar-thumbnail {
-    margin-top: 20px;
-    width: 150px;
-    height: auto;
+.img_calendar {
+   margin-top: 20px;
+    width: 200px; 
+    height: auto; 
 }
 
 #back-to-home {
