@@ -18,9 +18,19 @@
             <button id="search-event">Search Event</button>
             <button id="delete-event">Delete Event</button>
         </div>
+        <button id="to-do-list">To Do List</button>
     </div>
     <div id='calendar'></div>
+
+    <div id="todo-list-container">
+        <h2>To Do List</h2>
+        <input type="text" id="new-task" placeholder="Add a new task">
+        <button id="add-task-button" onclick="addTask()">Add Task</button>
+        <ul id="task-list"></ul>
+    </div>
+
     <script src="calendar.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script src="todo.js"></script>
 </body>
 </html>
