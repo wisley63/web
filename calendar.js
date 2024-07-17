@@ -268,8 +268,6 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 
-
-
     // Delete Event
     document.getElementById('delete-event').addEventListener('click', function () {
         var deleteTitle = prompt('Enter the title of the event to delete:');
