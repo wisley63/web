@@ -7,7 +7,6 @@ document.getElementById('to-do-list').addEventListener('click', function() {
     }
 });
 
-// 从 localStorage 加载待办事项列表
 window.onload = function() {
     loadTasks();
 }
