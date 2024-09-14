@@ -5,7 +5,7 @@ body {
     background-position: center;
     margin: 0;
     padding: 0;
-    color: black !important;
+    color: black ;
 }
 
 .container {
@@ -47,13 +47,13 @@ h1 {
 .grid-item h2 {
     font-size: 1.5em;
     margin-bottom: 10px;
-    color: black !important;
+    color: black;
 }
 
 .grid-item ul {
     list-style: none;
     padding: 0;
-    color: black !important;
+    color: black;
 }
 
 .grid-item ul li {
@@ -140,17 +140,17 @@ h1 {
     padding: 0 10px;
     background-color: white;
     border-radius: 10px;
-    color: black !important;
+    color: black ;
 }
 
 #bitcoin-price {
     font-size: 18px;
-    color: black !important;
+    color: black;
 }
 
 #upcoming-event {
     font-size: 18px;
-    color: black !important;
+    color: black;
 }
 
 #today-events,
